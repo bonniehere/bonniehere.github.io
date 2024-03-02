@@ -1,10 +1,10 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/naye0ng/Grape-Theme # Full URL
+    url : https://github.com/bonniehere/project.git # Full URL
     image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
+    date : 2023/12/12 ~ 2023/12/27
+    title : 병원 실시간 진료 예약 구현 서비스
     summary : A awesome jekyll theme!
     description : This project is my first jekyll theme. and everyone can customize this easily.  
     contents :

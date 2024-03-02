@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/smile.png
     username : MinChae Kang
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    description : 안녕하세요?
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -24,7 +24,7 @@ theme_settings :
   icons :
     email:  # Full email address, e.g. "sample@google.com"
     linkedin:  # Full URL 
-    github: naye0ng
+    github: bonniehere
     gitlab: 
     bitbucket: 
     google_plus:

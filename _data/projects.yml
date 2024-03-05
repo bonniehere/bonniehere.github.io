@@ -40,7 +40,7 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/bonniehere/project # Full URL
+    url : https://github.com/bonniehere/project2 # Full URL
     image : "portfolio.png" # path: assets/project/
     date : 2023/12/28 ~ 2024/1/15
     title : 병원 내 구역(GPS)이동 안내 자동화 서비스
@@ -70,7 +70,7 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/bonniehere/project # Full URL
+    url : https://github.com/bonniehere/project3 # Full URL
     image : "portfolio.png" # path: assets/project/
     date :  2024/1/18 ~ 2024/2/11
     title : 공급사 관점 의료용품 출하 프로세스 구현

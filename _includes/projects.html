@@ -6,7 +6,7 @@
       {% assign project = _.project %}
       {% assign id = id | plus: 1 %}
       <div class="card-wrapper">
-        <div class="card">
+        <div class="card" href="{{ url }}">
           {% if project.image %}
           <div class="img-wrap">
             <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
@@ -27,7 +27,7 @@
             </div>
             <div class="description">{{ project.description }}</div>
           </div>
-          <div class="icons">
+          <!--          <div class="icons">
             {% if project.url %}
             {% assign url = project.url %}
             <a href="{{ url }}/subscription"><i class="far fa-eye"></i></a>
@@ -38,6 +38,8 @@
             <a title="{{ id }}" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
             {% endif %}
           </div>
+          -->
+
         </div>
       </div>
       <!-- Modal Box -->

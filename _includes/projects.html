@@ -8,7 +8,7 @@
       <div class="card-wrapper">
         {% if project.url %}
         {% assign url = project.url %}
-        <div class="card" href="{{ url }}">
+        <div class="card" onclick="location.href='{{ url }}';">
           {% if project.image %}
           <div class="img-wrap">
             <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">

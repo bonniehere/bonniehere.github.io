@@ -6,6 +6,8 @@
       {% assign project = _.project %}
       {% assign id = id | plus: 1 %}
       <div class="card-wrapper">
+        {% if project.url %}
+        {% assign url = project.url %}
         <div class="card" href="{{ url }}">
           {% if project.image %}
           <div class="img-wrap">

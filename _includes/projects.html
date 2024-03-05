@@ -8,7 +8,9 @@
       <div class="card-wrapper">
         {% if project.url %}
         {% assign url = project.url %}
-        <div class="card" onclick="location.href='{{ url }}';">
+        <div class="card" onclick="redirectToProject('{{ project.url }}');">
+          <!-- card 내용 -->
+        </div>
           {% if project.image %}
           <div class="img-wrap">
             <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
@@ -57,3 +59,9 @@
 
 <!-- modal -->
 <script type="text/javascript" src="{{ site.url }}/assets/js/modal.js"></script>
+
+<script type="text/javascript">
+  function redirectToProject(url) {
+    window.location.href = url;
+  }
+</script>
